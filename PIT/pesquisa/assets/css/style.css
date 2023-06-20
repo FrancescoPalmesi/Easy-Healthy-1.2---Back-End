@@ -1,0 +1,421 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: rgb(39, 39, 39);
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-purple: #b040ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-white);
+}
+
+
+
+.cf:before, .cf:after{
+  content:"";
+  display:table;
+}
+
+.cf:after{
+  clear:both;
+}
+
+.cf{
+  zoom:1;
+}
+
+#position-form{
+    margin-top: -15vh;
+}
+
+#position-text{
+    padding-top: 37vh;
+}
+#destaque{
+    text-align: center;
+    color: #14EDB9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.7em;
+    font-weight: 500;
+    margin-top: -6vh;
+    letter-spacing: 1px;
+}
+#titulo{
+    color: #f5f5f5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.4em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+main{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-wrapper {
+    
+    width: 450px;
+    padding: 15px;
+    margin: 150px auto 15px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+.form-wrapper input {
+    width: 330px;
+    height: 35px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;      
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+
+.form-wrapper button {
+    overflow: visible;
+    margin-top: -35px;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 35px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #0D2329;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+  
+.form-wrapper button:hover{		
+    background: #1c4730;
+}	
+  
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #0D2329;    
+}
+
+.form-wrapper button:before {
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #0D2329 transparent;
+    top: 12px;
+    left: -6px;
+}
+
+.form-wrapper button:hover:before{
+    border-right-color: #1c4730;
+}
+
+.form-wrapper button:focus:before{
+    border-right-color: #1c4730;
+}    
+
+.form-wrapper button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+#search{
+    background-image: url(background.png);
+   margin-top: -115vh;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.img_logo_header{
+    width: 60%;
+    margin-top: 8%;
+}
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+    background-color: #0a1a1e9c;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 5.5em;
+    box-shadow: 1px 1px 4px var(--color-dark4);
+   
+}
+.navigation_header{
+    gap: 3em;
+    z-index: 2;
+}
+.content{
+    padding-top: 5em;
+    text-align: center;
+    height: 100vh;
+    transition: 1s;
+}
+.navigation_header a{
+    text-decoration: none;
+    color: #ffff;
+    transition: 1s;
+    font-weight: bold;
+}
+.navigation_header a:hover{
+    color: #14EDB9;
+}
+
+.btn_icon_header{
+    background: transparent;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.footer-dark {
+    padding:50px 0;
+    margin-top: 10%;
+    color:#f0f9ff;
+    background-color:#0D2329;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+
+  .form-tags{
+    width: 100%;
+    height: fit-content;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+  }
+  .input-block{
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  #label-titulo{
+    font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    color: #0A1A1E;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-top: 30px;
+  } 
+
+  label{
+    font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    color: #0A1A1E;
+  }
+
+  #checkbox2{
+    margin-left: 25px;
+    }
+
+
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+
+@media screen and (max-width: 768px) {
+    .navigation_header{
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background: #0A1A1E;
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+    .btn_icon_header{
+        display: block;
+    }
+}
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    to {margin-left: -10vw;}
+}
+
+@media screen and (max-width:426px){
+  .form-wrapper button {
+    overflow: visible;
+    margin-top: -35px;
+    position: relative;
+    float: right;
+    margin-right: -3vw;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 35px;
+    width: 80px;
+    font: bold 12px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #0D2329;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+  }
+    .form-wrapper {
+    
+      width: 300px;
+      padding: 15px;
+      margin: 150px auto 15px auto;
+      background: #444;
+      background: rgba(0,0,0,.2);
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+      -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+      box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+  }
+  
+  .form-wrapper input {
+      width: 280px;
+      height: 35px;
+      padding: 10px 5px;
+      float: left;    
+      font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+      border: 0;
+      background: #eee;
+      -moz-border-radius: 3px 0 0 3px;
+      -webkit-border-radius: 3px 0 0 3px;
+      border-radius: 3px 0 0 3px;      
+  }
+  #destaque{
+    margin-top: -3vh;
+  }
+}

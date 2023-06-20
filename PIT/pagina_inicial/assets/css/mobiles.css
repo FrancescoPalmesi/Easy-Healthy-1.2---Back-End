@@ -1,0 +1,124 @@
+@media (max-width: 320px) {
+  #inicial-banner{
+    width: 100%;
+    max-width: 425px;
+    z-index: -1;
+    margin-top: -260%;
+    position: absolute;
+    overflow: hidden;
+}
+#inicial-banner2{
+    width: 100%;
+    max-width: 425px;
+    z-index: -1;
+    position: absolute;
+    margin-top: 10%;
+    overflow: hidden;
+}
+#imgprincipal{
+    width: 300%;
+    z-index: -1;
+    position: relative;
+    margin-left: -100%;
+}
+
+    #detalhes{
+        display: none;
+        
+    }
+    #detalhes02{
+        display: none;
+    }
+
+
+
+    #titulosec2{
+        font-weight: 500;
+        font-size: 2.5em;
+        text-align: left;
+        color: #0D2329;
+        margin-top: -15%;
+        margin-left: 7%;
+        z-index: 1;
+    }
+    
+    #txtsec2{
+        padding: 10px;
+        font-weight: 300;
+        font-size: 0.85em;
+        text-align: left;
+        color: #0A1A1E;
+        margin-top: 2%;
+        margin-left: 8%;
+        z-index: 1;
+    }
+
+    #textosisolados{
+        width: 95%;
+        height: 45%;
+        margin-left: 2.5%;
+        margin-top: -112%;
+        z-index: -1;
+        background-color: #FFFBF6;
+        box-shadow: 7px 19px 21px -7px rgba(0, 0, 0, 0.158);
+-webkit-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+-moz-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+    }
+    #txtmodificado{
+        color: #05664F;
+        font-weight: 500;
+    }
+    #vereceitas{
+        width: 60%;
+        height: 2.3em;
+        border-radius: 25px;
+        font-size: 1.3em;
+        font-weight: 500;
+        margin-left: 20%;
+        margin-top: 3%;
+        border: none;
+        background-color: #FFFBF6;
+        color: #0A1A1E;
+        transition: all ease-in-out 0.2s;
+    }
+    #prato{
+        width: 65%;
+        margin-top: 10%;
+        -webkit-animation:spin 20s linear infinite;
+        -moz-animation:spin 20s linear infinite;
+        animation:spin 20s linear infinite;
+      }
+
+      #secao3{
+        width: 60%;
+        margin-left: 7%;
+        position: absolute;
+        margin-top: 20%;
+      }
+      #titulosec3{
+        font-weight: 500;
+          font-size: 1.4em;
+          text-align: left;
+          color: #14EDB9;
+          
+      }
+      #txtsec3{
+        font-weight: 300;
+        font-size: 1em;
+        text-align: left;
+        color: #ebebeb;
+        margin-top: 2%;
+        margin-left: 2%;
+      }
+      #txtmodificado2{
+        color: #ffffff;
+        font-weight: 500;
+      }
+    
+    .footer-dark {
+        padding:50px 0;
+        margin-top: 180%;
+        color:#f0f9ff;
+        background-color:#0D2329;
+      }
+}

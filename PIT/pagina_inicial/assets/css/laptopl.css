@@ -1,0 +1,90 @@
+@media screen and (max-width: 1440px) {
+
+    #inicial-banner-mobile{
+        display: none;
+      }
+      #inicial-banner2-mobile{
+        display: none;
+      }
+      #imgprincipal2{
+       display:none;
+      }
+
+    #inicial-banner{
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        margin-top: -60%;
+    }
+
+    #detalhes{
+        width: 60%;
+        height: 18em;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        z-index: 2;
+        margin-top: -10%;
+        position: absolute;
+        background-color: #ffff;
+        margin-left: 20%;
+        
+    }
+    #detalhes02{
+        width: 60%;
+        height: 18em;
+        border-radius: 25px;
+        z-index: 1;
+        margin-top: -9%;
+        position: absolute;
+        background-color: #05664F;
+        margin-left: 20%;
+        box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+    -moz-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+    }
+
+    #detalhe1{
+        width: 18%;
+        color: #05664F;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #detalhe2{
+        width: 18%;
+        color: #05664F;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-top: -28%;
+        margin-left: 29%;
+    }
+    #detalhe3{
+        width: 18%;
+        color: #05664F;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-top: -29%;
+        margin-left: 51%;
+    }
+    #detalhe4{
+        width: 18%;
+        color: #05664F;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-top: -28%;
+        margin-left: 73%;
+    }
+    #prato{
+        width:38%;
+        margin-left: 15%;
+        margin-top: -37%;
+        -webkit-animation:spin 20s linear infinite;
+        -moz-animation:spin 20s linear infinite;
+        animation:spin 20s linear infinite;
+      }
+}

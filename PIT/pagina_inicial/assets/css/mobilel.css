@@ -1,0 +1,180 @@
+@media (max-width: 425px) {
+    #inicial-banner{
+        width: 100%;
+        max-width: 425px;
+        z-index: -1;
+        margin-top: -200%;
+        position: absolute;
+        overflow: hidden;
+    }
+    #inicial-banner2{
+        width: 100%;
+        max-width: 425px;
+        z-index: -1;
+        position: absolute;
+        margin-top: 10%;
+        overflow: hidden;
+    }
+    #imgprincipal{
+        width: 300%;
+        z-index: -1;
+        position: relative;
+        animation: slowmoving 14s linear infinite;
+    }
+    #detalhes{
+        display: none;
+        
+    }
+    #detalhes02{
+        display: none;
+    }
+
+
+
+    #titulosec2{
+        font-weight: 500;
+        font-size: 3em;
+        text-align: left;
+        color: #0D2329;
+        margin-top: -15%;
+        margin-left: 7%;
+        z-index: 1;
+    }
+    
+    #txtsec2{
+        padding: 10px;
+        font-weight: 300;
+        font-size: 0.85em;
+        text-align: left;
+        color: #0A1A1E;
+        margin-top: 2%;
+        margin-left: 8%;
+        z-index: 1;
+    }
+
+    #textosisolados{
+        width: 85%;
+        height: 45%;
+        margin-left: 7.5%;
+        margin-top: -45%;
+        z-index: -1;
+        background-color: #FFFBF6;
+        box-shadow: 7px 19px 21px -7px rgba(0, 0, 0, 0.158);
+-webkit-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+-moz-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+    }
+    #txtmodificado{
+        color: #05664F;
+        font-weight: 500;
+    }
+    #vereceitas{
+        width: 60%;
+        height: 2.3em;
+        border-radius: 25px;
+        font-size: 1.3em;
+        font-weight: 500;
+        margin-left: 20%;
+        margin-top: 3%;
+        border: none;
+        background-color: #FFFBF6;
+        color: #0A1A1E;
+        transition: all ease-in-out 0.2s;
+    }
+    #prato{
+        width: 65%;
+        margin-top: 5%;
+        -webkit-animation:spin 20s linear infinite;
+        -moz-animation:spin 20s linear infinite;
+        animation:spin 20s linear infinite;
+      }
+
+      #secao3{
+        width: 60%;
+        margin-left: 7%;
+        position: absolute;
+        margin-top: 20%;
+      }
+      #titulosec3{
+        font-weight: 500;
+          font-size: 1.8em;
+          text-align: left;
+          color: #14EDB9;
+          
+      }
+      #txtsec3{
+        font-weight: 300;
+        font-size: 1em;
+        text-align: left;
+        color: #ebebeb;
+        margin-top: 2%;
+        margin-left: 2%;
+      }
+      #txtmodificado2{
+        color: #ffffff;
+        font-weight: 500;
+      }
+    #inicial-banner2{
+        width: 220%;
+        z-index: -1;
+        position: absolute;
+        margin-top: 10%;
+    }
+    .footer-dark {
+        padding:50px 0;
+        margin-top: 200%;
+        color:#f0f9ff;
+        background-color:#0D2329;
+      }
+}
+@media (max-width:414px){
+    #inicial-banner{
+        width: 100%;
+        max-width: 414px;
+        z-index: -1;
+        margin-top: -250%;
+        position: absolute;
+        overflow: hidden;
+    }
+    #inicial-banner2{
+        width: 100%;
+        max-width: 414px;
+        z-index: -1;
+        position: absolute;
+        margin-top: 10%;
+        overflow: hidden;
+    }
+    #imgprincipal{
+        width: 300%;
+        z-index: -1;
+        position: relative;
+        margin-left: -100%;
+    }
+    #prato{
+        width: 65%;
+        margin-top: 2%;
+        -webkit-animation:spin 20s linear infinite;
+        -moz-animation:spin 20s linear infinite;
+        animation:spin 20s linear infinite;
+      }
+    #textosisolados{
+        width: 85%;
+        height: 45%;
+        margin-left: 7.5%;
+        margin-top: -80%;
+        z-index: -1;
+        background-color: #FFFBF6;
+        box-shadow: 7px 19px 21px -7px rgba(0, 0, 0, 0.158);
+-webkit-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+-moz-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+}
+}
+
+@keyframes slowmoving
+{
+    from {
+        left: -50%;
+    }
+    to {
+        left: -100%;
+    }
+}

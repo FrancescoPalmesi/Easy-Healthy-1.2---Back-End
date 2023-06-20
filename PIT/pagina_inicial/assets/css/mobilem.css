@@ -1,0 +1,53 @@
+@media (max-width: 375px) {
+    #inicial-banner{
+        width: 100%;
+        max-width: 375px;
+        z-index: -1;
+        margin-top: -100%;
+        position: absolute;
+        overflow: hidden;
+        
+    }
+    #inicial-banner2{
+        width: 100%;
+        max-width: 375px;
+        z-index: -1;
+        position: absolute;
+        margin-top: 10%;
+        overflow: hidden;
+    }
+    #imgprincipal{
+        width: 300%;
+        z-index: -1;
+        position: relative;
+        margin-left: -80;
+    }
+
+    #titulosec2{
+        font-weight: 500;
+        font-size: 2.8em;
+        text-align: left;
+        color: #0D2329;
+        margin-top: -15%;
+        margin-left: 7%;
+        z-index: 1;
+    }
+    #prato{
+        width: 65%;
+        margin-top: 2%;
+        -webkit-animation:spin 20s linear infinite;
+        -moz-animation:spin 20s linear infinite;
+        animation:spin 20s linear infinite;
+      }
+    #textosisolados{
+        width: 85%;
+        height: 45%;
+        margin-left: 7.5%;
+        margin-top: -80%;
+        z-index: -1;
+        background-color: #FFFBF6;
+        box-shadow: 7px 19px 21px -7px rgba(0, 0, 0, 0.158);
+-webkit-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+-moz-box-shadow: 7px 19px 21px -7px rgba(0,0,0,0.28);
+}
+}
